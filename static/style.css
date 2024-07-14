@@ -1,0 +1,65 @@
+/* Reset default margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Container style */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style for upload form */
+.upload-form {
+    margin-top: 20px;
+}
+
+/* Style for file input */
+.upload-form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Button style */
+.upload-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.upload-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for search results */
+.search-results {
+    margin-top: 20px;
+}
+
+/* Style for list items */
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for list item */
+.search-results li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}

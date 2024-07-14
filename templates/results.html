@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h2>Image Analysis Results</h2>
+    <p><strong>Description:</strong> {{ description }}</p>
+    <p><strong>Tags:</strong> {{ tags }}</p>
+    
+    <h2>Search Results</h2>
+    <div class="search-results">
+        <ul>
+            {% for result in results %}
+            <li>ID: {{ result.id }}, Score: {{ result.score }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}
